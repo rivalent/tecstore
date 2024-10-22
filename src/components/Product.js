@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Product({ id, image, name, rate, price}) {
+export default function Product({ id, image, name, rate, price, addProductToCart}) {
   return (
     <div className="product">
       <img src={image} alt={name} />
@@ -14,10 +14,10 @@ export default function Product({ id, image, name, rate, price}) {
       </p>
       <div className="buttons">
         <Link to="/products/123/checkout" className="btn-icon">
-          <span>Comprar Produto </span>
+          <span>Comprar Produto</span>
           <FontAwesomeIcon icon={faMoneyBill} />
         </Link>
-        <button className="btn-icon add-to-cart-btn">
+        <button onClick={() => addProductToCart(id)} className="btn-icon add-to-cart-btn">
           <span>Adicionar Ao Carrinho </span>
           <FontAwesomeIcon icon={faCartShopping} />
         </button>

@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import {
+  faBars,
+  faSearch,
+  faShoppingCart,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import { Link, link } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({ setShowSidebarCart, selectedProducts }) {
     const [show, setShow] = useState(false);
 
   return (
@@ -33,16 +37,19 @@ export default function Navbar() {
             </nav>
             <div className="navs-icon-container">
               <div className="search-input-container">
-                <input type="search" placeholder="Procurar"/>
-                <FontAwesomeIcon icon={faSearch} />
-              </div>
-             <button className="shopping-cart">
-                <FontAwesomeIcon icon={faShoppingCart} />
-                <div className="products-count">0</div>
-              </button>
-              <button className="menu-button" onClick={() => setShow(!show)}>
-                <FontAwesomeIcon icon={faBars} />
-              </button>
+            <input type="search" placeholder="Procurar" />
+            <FontAwesomeIcon icon={faSearch} />
+          </div>
+          <button
+            className="shopping-cart"
+            onClick={() => setShowSidebarCart(true)}
+          >
+            <FontAwesomeIcon icon={faShoppingCart} />
+            <div className="products-count">{selectedProducts.length}</div>
+          </button>
+          <button className="menu-button" onClick={() => setShow(!show)}>
+            <FontAwesomeIcon icon={faBars} />
+          </button>
             </div>
           </div>
         </div>
