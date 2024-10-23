@@ -5,12 +5,12 @@
 }
 
 :root {
-  --primary-color: #e63946; /* Vermelho */
-  --secundary-color: #1d3557; /* Azul escuro */
-  --dark-primary-color: #a83238; /* Vermelho escuro */
-  --dark-secundary-color: #14213d; /* Azul marinho */
-  --light-color: #f1faee; /* Branco gelo */
-  --dark-color: #343a40; /* Cinza escuro */
+  --primary-color: #e63946;
+  --secondary-color: #1d3557;
+  --dark-primary-color: #a83238;
+  --dark-secondary-color: #14213d;
+  --light-color: #f1faee;
+  --dark-color: #343a40;
 }
 
 body {
@@ -29,7 +29,7 @@ button {
   cursor: pointer;
 }
 
-/* start nav */
+/* START NAV */
 .nav {
   background-color: #fff;
   padding: 1rem;
@@ -51,7 +51,8 @@ button {
 .logo {
   color: var(--primary-color);
 }
-.logo span{
+
+.logo span {
   color: var(--dark-color);
 }
 
@@ -101,7 +102,8 @@ nav ul {
   padding: 0.5rem;
   margin-right: 1rem;
 }
-.search-input-container input{
+
+.search-input-container input {
   border: none;
   outline: none;
 }
@@ -113,16 +115,17 @@ nav ul {
 
 nav ul li:hover {
   transform: translateY(-4px);
-  transition: all 0.2;
+  transition: all 0.2s;
   font-weight: bold;
 }
 
 .menu-button {
   display: none;
 }
-/* end navbar */
 
-/* start header */
+/* END NAVBAR */
+
+/* START HEADER */
 header {
   background-color: var(--primary-color);
 }
@@ -138,10 +141,10 @@ header .inner-content {
 }
 
 header .left-side {
-  color: #ffffff;
+  color: #fff;
 }
 
-header .left-side h2{
+header .left-side h2 {
   font-size: 2.5rem;
 }
 
@@ -151,7 +154,8 @@ header .left-side p {
 }
 
 .see-more-btn {
-  background-color: var(--dark-primary-color);
+  /* background-color: var(--primary-color); */
+  background-color: var(--primary-color);
   padding: 0.8rem 1rem;
   border-radius: 8px;
   transition: all 0.2s;
@@ -169,10 +173,11 @@ header .left-side p {
 header .right-side img {
   width: 100%;
 }
-/* end header */
 
-/* media : nav e header */
-@media(max-width: 920px) {
+/* END HEADER */
+
+/* MEDIA : NAV E HEADER */
+@media (max-width: 920px) {
   .nav h1 {
     font-size: 1.2rem;
   }
@@ -227,7 +232,7 @@ header .right-side img {
   }
 }
 
-/* start main content */
+/* START MAIN CONTENT */
 .page-inner-content {
   max-width: 1280px;
   margin-inline: auto;
@@ -250,12 +255,19 @@ header .right-side img {
   flex-direction: column;
 }
 
+.product .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
 .product .name {
   font-weight: bold;
   margin-top: 0.4rem;
 }
 
-.product .price{
+.product .price {
   margin-top: 0.4rem;
 }
 
@@ -263,17 +275,10 @@ header .right-side img {
   font-weight: bold;
 }
 
-.product .rate, 
-.testimonial .rate{
-  color: var(--secundary-color);
+.product .rate,
+.testimonial .rate {
+  color: var(--secondary-color);
   font-size: 1.3rem;
-}
-
-.product .buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-top: 1rem;
 }
 
 .btn-icon {
@@ -294,31 +299,31 @@ header .right-side img {
 }
 
 .add-to-cart-btn {
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
 }
 
 .add-to-cart-btn:hover {
-  background-color: var(--dark-secundary-color);
+  background-color: var(--dark-secondary-color);
 }
 
-.section-tittle {
+.section-title {
   padding-bottom: 2rem;
   margin-top: 3rem;
 }
 
-.section-tittle h3 {
+.section-title h3 {
   text-align: center;
   font-size: 1.8rem;
 }
 
-.section-tittle .underline {
-  width: 200px;
+.section-title .underline {
+  width: 150px;
   height: 2px;
   background-color: var(--primary-color);
   margin: 4px auto 0 auto;
 }
 
-/* start exclusive section */
+/* START EXCLUSIVE SECTION */
 .exclusive-section {
   background-color: var(--primary-color);
 }
@@ -341,9 +346,9 @@ header .right-side img {
   max-width: 500px;
 }
 
-/*end exclusive section*/
+/* END EXCLUISVE SECTION */
 
-/* start testimonials */
+/* START TESTIMONAILS */
 .testimonials {
   display: flex;
   padding: 4rem 1rem;
@@ -361,6 +366,7 @@ header .right-side img {
   padding: 1rem;
   border-radius: 1rem;
   transition: all 0.2s;
+  gap: 0.7rem;
 }
 
 .testimonial:hover {
@@ -371,15 +377,15 @@ header .right-side img {
   font-weight: bold;
   font-size: 5rem;
   color: var(--primary-color);
-  margin-top: 1rem;
+  margin-top: 3rem;
   line-height: 3rem;
 }
 
-/* end testimonials*/
+/* END TESTIMONAILS */
 
-/* start footer*/
+/* START FOOTER */
 footer {
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   color: #fff;
 }
 
@@ -390,7 +396,7 @@ footer .content {
   justify-content: center;
 }
 
-.download-options > *{
+.download-options > * {
   margin: 1rem 0;
 }
 
@@ -421,7 +427,7 @@ footer .content {
   margin-inline: auto;
 }
 
-footer .links h3{
+footer .links h3 {
   margin-bottom: 0.8rem;
 }
 
@@ -441,15 +447,17 @@ hr {
   text-align: center;
 }
 
-/* media */
-@media(max-width: 800px) {
-  .section-tittle h3 {
+/* END FOOTER */
+
+/* MEDIA */
+@media (max-width: 800px) {
+  .section-title h3 {
     font-size: 1.2rem;
   }
 
-  .product .name, 
+  .product .name,
   .product .price,
-  .product .rate, 
+  .product .rate,
   .testimonial .rate {
     max-height: 1rem;
     overflow: hidden;
@@ -460,7 +468,7 @@ hr {
     flex-direction: column-reverse;
   }
 
-  .exclusive-section .content .right-side {
+  .exclusive-section .content .right-side img {
     max-width: 250px;
     margin-bottom: 3rem;
   }
@@ -476,28 +484,23 @@ hr {
     display: inline;
   }
 
-  footer .content > div{
-    padding: 1rem;
-  }
-
-  .download-options > div {
+  footer .content > div {
     padding: 1rem;
   }
 
   .download-options > div img {
-    width: 100px;
+    width: 120px;
   }
 
   .copyright {
     font-size: 0.8rem;
   }
-  
+
   footer .links ul,
   footer .links h3 {
     text-align: center;
   }
 }
-/* end footer*/
 
 /* START SIDEBAR */
 .sidebar-cart {
@@ -551,13 +554,13 @@ hr {
 
 .sidebar-cart .sidebar-product img {
   height: 75px;
-} 
+}
 
 .sidebar-cart .total-container {
   margin-block: 1rem;
 }
 
-.sidebar-cart  .left-side {
+.sidebar-cart .left-side {
   display: flex;
   gap: 0.5rem;
 }
@@ -573,6 +576,7 @@ hr {
 
 .sidebar-cart .left-side input {
   width: 55px;
+  margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   padding: 0.2rem;
 }

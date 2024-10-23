@@ -12,7 +12,7 @@ export default function HomePage({ products, addProductToCart }) {
 
       <div className="page-inner-content">
         <div className="section-title">
-          <h3>Productos Selecionados</h3>
+          <h3>Produtos Selecionados</h3>
           <div className="underline"></div>
         </div>
 

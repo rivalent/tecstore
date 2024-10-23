@@ -13,8 +13,7 @@ export default function ExclusiveSection() {
             <p>
                 O mi Smart 4 tem uma tela AMOLED 39.9% maior que o mi Bandtela 
                 completamente digital com brilho tecnologico, de tal maneira
-                em que bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                bla bla bla bla bla
+                em que Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <Link to="/products" className="see-more-btn">
               <span>Ver Agora</span>

@@ -8,35 +8,35 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar({ setShowSidebarCart, selectedProducts }) {
-    const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
 
   return (
     <div className="nav">
-          <div className="inner-content">
-            <h1 className="logo">
-              TEC<span>STORE</span>
-            </h1>
-            <nav className={`${show && "show"}`}>
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/products">Produtos</Link>
-                </li>
-                <li>
-                  <Link to="/about">Sobre</Link>
-                </li>
-                <li>
-                  <Link to="/contacts">Contatos</Link>
-                </li>
-                <li>
-                  <Link to="/account">Conta</Link>
-                </li>
-              </ul>
-            </nav>
-            <div className="navs-icon-container">
-              <div className="search-input-container">
+      <div className="inner-content">
+        <h1 className="logo">
+          TEC<span>STORE</span>
+        </h1>
+        <nav className={`${show && "show"}`}>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/products">Produtos</Link>
+            </li>
+            <li>
+              <Link to="/about">Sobre</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contacto</Link>
+            </li>
+            <li>
+              <Link to="/account">Conta</Link>
+            </li>
+          </ul>
+        </nav>
+        <div className="navs-icon-container">
+          <div className="search-input-container">
             <input type="search" placeholder="Procurar" />
             <FontAwesomeIcon icon={faSearch} />
           </div>
@@ -50,8 +50,8 @@ export default function Navbar({ setShowSidebarCart, selectedProducts }) {
           <button className="menu-button" onClick={() => setShow(!show)}>
             <FontAwesomeIcon icon={faBars} />
           </button>
-            </div>
-          </div>
         </div>
-  )
+      </div>
+    </div>
+  );
 }
