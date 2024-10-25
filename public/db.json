@@ -5,84 +5,168 @@
       "name": "Combo Gamer Meetion",
       "image": "/images/products/product-4.png",
       "rating": 4,
-      "price": 4000
+      "price": 104.99
     },
     {
       "id": 2,
       "name": "Msi GeForce Gtx 1650",
       "image": "/images/products/product-5.png",
       "rating": 5,
-      "price": 20000
+      "price": 879.99
     },
     {
       "id": 3,
       "name": "Dualsense PS5",
       "image": "/images/products/product-6.png",
       "rating": 5,
-      "price": 4000
+      "price": 460.00
     },
     {
       "id": 4,
       "name": "Cadeira Gamer Frizzi",
       "image": "/images/products/product-7.png",
       "rating": 3,
-      "price": 17500
+      "price": 499.99
     },
     {
       "id": 5,
       "name": "iPhone 14 Pro Max 512GB",
       "image": "/images/products/product-8.png",
       "rating": 5,
-      "price": 115000
+      "price": 5975.60
     },
     {
       "id": 6,
       "name": "Samsung Galaxy S23 Ultra 1TB",
       "image": "/images/products/product-9.png",
       "rating": 5,
-      "price": 110000
+      "price": 10190.90
     },
     {
       "id": 7,
       "name": "Asus Rog Phone 3 Gamer",
       "image": "/images/products/product-10.png",
       "rating": 4,
-      "price": 65000
+      "price": 4044.67
     },
     {
       "id": 8,
       "name": "Xiaomi 13 Ultra",
       "image": "/images/products/product-11.png",
       "rating": 4,
-      "price": 80500
+      "price": 4130.59
     },
     {
       "id": 9,
       "name": "Xbox Series X",
       "image": "/images/products/product-12.png",
       "rating": 5,
-      "price": 45000
+      "price": 4454.00
     },
     {
       "id": 10,
       "name": "Racingwheel GT480 Ferrari",
       "image": "/images/products/product-13.png",
       "rating": 5,
-      "price": 14000
+      "price": 659.99
     },
     {
       "id": 11,
       "name": "PlayStation 5",
       "image": "/images/products/product-14.png",
       "rating": 5,
-      "price": 54000
+      "price": 3719.99
     },
     {
       "id": 12,
       "name": "Gaming Desktop RTX 3090Ti",
       "image": "/images/products/product-15.png",
       "rating": 5,
-      "price": 450000
+      "price": 4789.97
+    },
+    {
+      "id": 13,
+      "name": "Notebook Dell 5400",
+      "image": "/images/products/product-2.png",
+      "rating": 5,
+      "price": 2879.99
+    },
+    {
+      "id": 14,
+      "name": "Galaxy Watch5 Bluetooth (40mm)",
+      "image": "/images/products/product-16.png",
+      "rating": 5,
+      "price": 1350.98
+    },
+    {
+      "id": 15,
+      "name": "Robô Aspirador de Pó Inteligente S20",
+      "image": "/images/products/product-17.png",
+      "rating": 5,
+      "price": 2299.99
+    },
+    {
+      "id": 16,
+      "name": "Carregador Portátil Baseus 30.00mAH",
+      "image": "/images/products/product-18.png",
+      "rating": 4,
+      "price": 149.90
+    },
+    {
+      "id": 17,
+      "name": "TP-Link Tapo C200",
+      "image": "/images/products/product-19.png",
+      "rating": 4,
+      "price": 42.56
+    },
+    {
+      "id": 18,
+      "name": "Drone DJI Air 2S",
+      "image": "/images/products/product-20.png",
+      "rating": 4,
+      "price": 10909.17
+    },
+    {
+      "id": 19,
+      "name": "Audio-Technica AT2020 - Microfone condensador profissional",
+      "image": "/images/products/product-21.png",
+      "rating": 4,
+      "price": 869.99
+    },
+    {
+      "id": 20,
+      "name": "Monitor Samsung Odyssey 34′ Gamer Curvo Série G5",
+      "image": "/images/products/product-22.png",
+      "rating": 5,
+      "price": 3499.00
+    },
+    {
+      "id": 21,
+      "name": "Echo Dot (5ª geração) Smart Speaker com Alexa Amazon",
+      "image": "/images/products/product-23.png",
+      "rating": 5,
+      "price": 429.90
+    },
+    {
+      "id": 22,
+      "name": "SteelSeries Arctis 7P+",
+      "image": "/images/products/product-24.png",
+      "rating": 5,
+      "price": 855.90
+    },
+    {
+      "id": 23,
+      "name": "Nitendo Switch",
+      "image": "/images/products/product-25.png",
+      "rating": 5,
+      "price": 2599.90
+    },
+    {
+      "id": 24,
+      "name": "Tablet Samsung Galaxy Tab S9 Ultra",
+      "image": "/images/products/product-26.png",
+      "rating": 5,
+      "price": 5399.60
     }
   ]
 }

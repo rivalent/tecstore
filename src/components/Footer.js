@@ -45,7 +45,7 @@ export default function Footer() {
         <hr />
 
         <p className="copyright">
-          copyright 2024 - Erridê - Todos Direitos Reservados
+          copyright 2024 - Richard & Davi - Todos Direitos Reservados
         </p>
       </div>
     </footer>
