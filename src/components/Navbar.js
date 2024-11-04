@@ -28,7 +28,10 @@ export default function Navbar({ setShowSidebarCart, selectedProducts }) {
               <Link to="/about">Sobre</Link>
             </li>
             <li>
-              <Link to="/contact">Contacto</Link>
+              <Link to="/contact">Contato</Link>
+            </li>
+            <li>
+              <Link to="/register">Inscrição</Link>
             </li>
             <li>
               <Link to="/account">Conta</Link>

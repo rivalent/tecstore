@@ -586,3 +586,69 @@ hr {
 }
 
 /* END SIDEBAR */
+
+/*start register*/
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  margin: 0; /* Remove margens */
+}
+
+.register-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  width: 100%; /* Largura total */
+  max-width: 400px; /* Largura máxima */
+}
+
+.register-form {
+  width: 100%; /* Toma toda a largura do contêiner */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Faz o input ocupar toda a largura do form-group */
+}
+
+.register-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color); /* Verde */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: 200px; /* Limite a largura do botão */
+  width: 100%; /* Faz o botão ocupar toda a largura disponível */
+  text-align: center; /* Centraliza o texto do botão */
+}
+
+.register-button:hover {
+  background-color: var(--dark-primary-color); /* Tom mais escuro ao passar o mouse */
+}
+

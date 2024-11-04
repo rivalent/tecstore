@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import HomePage from "./components/pages/HomePage";
 import ProductsPage from "./components/pages/ProductsPage";
 import SidebarCart from "./components/SidebarCart";
+import Register from "./components/pages/Register";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -78,6 +79,10 @@ function App() {
             <Route
               path="/cart/checkout"
               element={<div>Página de Checkout {cartTotal}</div>}
+            />
+            <Route
+              path="/register"
+              element={<Register />}
             />
           </Routes>
         </main>
